@@ -1,0 +1,120 @@
+{
+  "projects": [
+    {
+      "id": "p1",
+      "t": "CodePulse",
+      "g": "Distributed incident detection & root-cause analysis",
+      "i": "📡",
+      "h": 255,
+      "y": "2026",
+      "l": "",
+      "tech": [
+        "TypeScript",
+        "Node.js",
+        "Kafka",
+        "PostgreSQL",
+        "Redis",
+        "OpenTelemetry",
+        "Kubernetes"
+      ],
+      "d": "A distributed incident management platform that ingests logs, metrics, traces, alerts and service-health events through Kafka, correlates production failures across microservices, and builds incident timelines.\n\nIts dependency-aware root-cause engine combines temporal, error, metric and service-dependency correlation to point at probable failure origins. Live updates stream over WebSockets to an interactive dashboard, with automated detection and deployment correlation.",
+      "img": ""
+    },
+    {
+      "id": "p2",
+      "t": "CodeSentinel AI",
+      "g": "Autonomous engineering-management agent",
+      "i": "🛡️",
+      "h": 175,
+      "y": "2026",
+      "l": "",
+      "tech": [
+        "TypeScript",
+        "Google ADK",
+        "GitHub",
+        "Kubernetes",
+        "Sentry",
+        "PostHog",
+        "Zod"
+      ],
+      "d": "An AI agent that continuously analyzes codebases and production systems, giving engineering leaders real-time visibility into quality, reliability and security.\n\nThe LLM iteratively calls GitHub, Kubernetes, Sentry and PostHog through Zod-validated tool schemas, reads the results as context, and decides what to investigate next. It runs automated audits for security regressions, coverage stagnation, practice violations and production failures, then emails synthesized reports.",
+      "img": ""
+    },
+    {
+      "id": "p3",
+      "t": "ZORDR",
+      "g": "Campus food-ordering platform · 400k+ downloads",
+      "i": "🍔",
+      "h": 20,
+      "y": "2023–26",
+      "l": "",
+      "tech": [
+        "Node.js",
+        "Prisma",
+        "Next.js",
+        "Kafka",
+        "Redis",
+        "GitHub Actions",
+        "Grafana"
+      ],
+      "d": "A campus food-ordering app with 400k+ Google Play downloads. I owned backend development and production deployments.\n\nMicroservices cover menus, orders, partner integrations and pickup slots; Kafka drives asynchronous order processing, Redis caches hot menu and availability data, and Prometheus/Grafana plus CI/CD keep releases safe and observable.",
+      "img": ""
+    },
+    {
+      "id": "p4",
+      "t": "CR Insights Dashboard",
+      "g": "LLM-powered code-review tracking at Amazon",
+      "i": "🧠",
+      "h": 300,
+      "y": "2019–23",
+      "l": "",
+      "tech": [
+        "LLMs",
+        "Dashboards",
+        "Automation"
+      ],
+      "d": "A centralized dashboard tracking code reviews across the Alexa Quality and internal tools teams, with role-based views and automated reminders for stale reviews.\n\nLLMs analyze review comments and feedback, lifting fix rates 3.3x (12% → 40%) and cutting issue identification time by 70%.",
+      "img": ""
+    },
+    {
+      "id": "p5",
+      "t": "Rocket.Chat Contributions",
+      "g": "Google Summer of Code · 6 merged PRs",
+      "i": "🚀",
+      "h": 340,
+      "y": "2018",
+      "l": "",
+      "tech": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Turborepo"
+      ],
+      "d": "Open-source work on a large production chat platform: fixed an authorization-validation bypass that allowed forged video-conference notifications, let members reply in threads of read-only rooms without weakening room restrictions, and added autocomplete to authentication forms.",
+      "img": ""
+    }
+  ],
+  "experience": [
+    {
+      "id": "e1",
+      "period": "2023 – 2026",
+      "role": "Senior Software Engineer",
+      "company": "ZORDR",
+      "d": "Owned backend and production deployments of a campus food-ordering platform with 400k+ downloads. Built TypeScript/Node.js microservices, Kafka event-driven order flows, Redis caching, Next.js interfaces, and CI/CD with Prometheus/Grafana monitoring."
+    },
+    {
+      "id": "e2",
+      "period": "2019 – 2023",
+      "role": "Software Development Engineer",
+      "company": "Amazon",
+      "d": "Led a centralized code-review dashboard for Alexa Quality, integrating LLMs to analyze review feedback — fix rates rose from 12% to 40%, issue identification time fell 70%."
+    },
+    {
+      "id": "e3",
+      "period": "Open source",
+      "role": "Google Summer of Code Contributor",
+      "company": "Rocket.Chat",
+      "d": "Fixed a video-conference authorization bypass, improved thread permissions in read-only rooms, and shipped 6 merged pull requests."
+    }
+  ]
+}
