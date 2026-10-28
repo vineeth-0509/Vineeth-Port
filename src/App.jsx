@@ -281,7 +281,7 @@ export default function App() {
     return () => removeEventListener("mousemove", m);
   }, []);
   const chosen = content.projects.find((p) => p.id === sel);
-  const name = "Vineeth Tungani";
+  const name = "Manasa Tungani";
 
   return (
     <>
